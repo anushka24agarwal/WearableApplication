@@ -1,0 +1,897 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:2:1-153:12
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:2:1-153:12
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:2:1-153:12
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:2:1-153:12
+MERGED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-24:12
+MERGED from [:CountDownDialog] /Users/sharadagarwal/Desktop/SensorBox-master/CountDownDialog/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:wearoslib] /Users/sharadagarwal/Desktop/SensorBox-master/wearoslib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [com.afollestad.material-dialogs:core:3.3.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f81798e081673142e0458af4bbb3cf1a/transformed/jetified-core-3.3.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.dagger:hilt-android:2.41] /Users/sharadagarwal/.gradle/caches/transforms-3/b7c3912c1c42e659994c9deeca4a095c/transformed/jetified-hilt-android-2.41/AndroidManifest.xml:16:1-19:12
+MERGED from [:flipper] /Users/sharadagarwal/Desktop/SensorBox-master/flipper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/5420ce96bb381f497206eea37d6b5eb1/transformed/navigation-ui-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/4fee4b8c007289ad877d909409adac52/transformed/navigation-ui-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.6.1] /Users/sharadagarwal/.gradle/caches/transforms-3/27fba2739076705ebb9e82e26229e9f8/transformed/material-1.6.1/AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.AppIntro:AppIntro:6.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/79293a14903fec907a0028dfa70dcb3c/transformed/jetified-AppIntro-6.1.0/AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/sharadagarwal/.gradle/caches/transforms-3/f0105fd524db65df2d8d3a09db6c26ac/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [io.github.ShawnLin013:number-picker:2.4.13] /Users/sharadagarwal/.gradle/caches/transforms-3/74556cb7e47bcdb338522db8f7845cf0/transformed/jetified-number-picker-2.4.13/AndroidManifest.xml:2:1-9:12
+MERGED from [io.github.medyo:android-about-page:2.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/733a59b6a687911e20b57d3ef4dd4782/transformed/jetified-android-about-page-2.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [de.psdev.licensesdialog:licensesdialog:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/331bf85eef007f12a50f9dac098ca683/transformed/jetified-licensesdialog-2.2.0/AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.GrenderG:Toasty:1.5.2] /Users/sharadagarwal/.gradle/caches/transforms-3/112e606b06db6c4f6486bec820260440/transformed/jetified-Toasty-1.5.2/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.preference:preference-ktx:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/cae88f3340aef2c57e9b0521140a576c/transformed/jetified-preference-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aeaf11e9094e57a1fe430507aa4acd1a/transformed/preference-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/sharadagarwal/.gradle/caches/transforms-3/6f76b412bb173787cb60bc148b411d2e/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c64ee8158c8641c024ce0cd8f0a950ce/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/d8e7484d9867f110511a673703539b86/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-wearable:17.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/0b0793963e7b78d0fa36e9ac871312c3/transformed/jetified-play-services-wearable-17.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/1063f65eb1b71884a7c6d84037010cda/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/be38ea10811d97ef6d369feef3dbb467/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aa0b7b105c2843252cd459dfeb66daa9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/baa5453ee69dded3f559a5477ac889cb/transformed/navigation-fragment-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/62456648189598bc5fec50074fb31ed7/transformed/navigation-fragment-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/29e5274bca9f402b89cbe332306db216/transformed/jetified-fragment-ktx-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/817c27abdfcc0fe2627ea109666ac17e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/sharadagarwal/.gradle/caches/transforms-3/95e835500b435a50abd725f8d4a3f5a2/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/e54bf6743a04b94da1f779f7c8c78a7c/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/2f9a8d3f3eaaef3cf9d65ca377e239f0/transformed/fragment-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/6d13ad42eec2925c521a4d78018149c6/transformed/navigation-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/705d400505035c53b936adebe1c6dcee/transformed/navigation-runtime-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a0cca8aaf7fd3f1753d2d45b57f09374/transformed/jetified-activity-ktx-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/630fa3d70d49b16dda8a55facb254e18/transformed/navigation-common-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/4e691fb79e3b0f242c48720fd021889f/transformed/navigation-common-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/72171c02639cf1632951136cb64f4825/transformed/jetified-lifecycle-viewmodel-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/5e3602b1f7f02fb2e02cec448a52c30c/transformed/jetified-activity-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/eb9540bdb57082abbf698a6c90e51e6e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/929e3cfb622d1ceaf4bdabcce5bdbac9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/36773450af90a8dca134c53e11853801/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4e4269ac02229b5c28f2bf8acacabd2/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/810577697f6b4d5f82ce2906ce131a31/transformed/lifecycle-viewmodel-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/396786d70f8f4966ffb7dd2654cca820/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/06610d22c3efcd14ea61301c08811eea/transformed/jetified-lifecycle-runtime-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/cdca3c521e71589ef0566545b99a3a24/transformed/jetified-lifecycle-livedata-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/8480123d4d7da6fee671e27d5cda807a/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/e586b5dd68465e158726f583e5e19629/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/18422d3055beded80a85f3f65fca503b/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/sharadagarwal/.gradle/caches/transforms-3/ba5337f8306df55aa56ec8af06c6acaf/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.jaredrummler:material-spinner:1.3.1] /Users/sharadagarwal/.gradle/caches/transforms-3/79512b157adcbe6fc20f71bb27392501/transformed/jetified-material-spinner-1.3.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:17:1-76:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/1f854c751d3c005ccbc5043e78cce09b/transformed/jetified-lifecycle-livedata-core-ktx-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/dafe7bd32c5b05d424cf9e45e37b79a6/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/7bc2b7c89cf5706e6a8507b502d64e1b/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/7a6905989ed51a2d4ea63fd67171284b/transformed/jetified-leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/720f74740e0b6a52ee186cf1781be1da/transformed/jetified-leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/de64a8522b336d098d51a0989f394ed1/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/86e5ba84e357a2f1fe440fbd55848313/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:2:1-15:12
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/62b1f595771006c84c5818777119d4b5/transformed/jetified-leakcanary-android-utils-2.7/AndroidManifest.xml:2:1-7:12
+MERGED from [com.squareup.curtains:curtains:1.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/5e46968cd26b933b28cce6ab3d88f9b9/transformed/jetified-curtains-1.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/sharadagarwal/.gradle/caches/transforms-3/6fa89e47be3b96599602329b7d7c2ecf/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/da8ad225a0fdc45729e32f89db1e0e60/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/sharadagarwal/.gradle/caches/transforms-3/3b9cf907e23f84239a7e11eee3283bcc/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/813785b65fec78e271ac57e9c45e322e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/ccc450dea2455c055056727f79457e71/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/5d4a60c53ce02c93769cc42bdfc174c4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/58021a720203f4475531bc926b9d12bd/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/30038119293d0d38de119e2877d4d2fe/transformed/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/d2133f178942497180934b5bc6b36936/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/2c7997f6b1c6d6335a2c11005519fd88/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/281ba2653459867abac49d756573bfb8/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/sharadagarwal/.gradle/caches/transforms-3/95c3d50d9edd7a3fb7fe773532177b13/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/894c8ef5e72e72d2a5891e34e688429d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/edbc68adad52caeefc0bfa778ac687eb/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.8.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c88b56854325d7eacca06d8ff9aef989/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/2a47ccc60555806a78dd2d3bf4bd9bf9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f2d27e22fa2e34b882bef114b5e83d28/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/94f75234ed21d7d8d12229476a1b84fe/transformed/lifecycle-livedata-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c52722a8850aceb9bf3b341eb27d5007/transformed/lifecycle-livedata-core-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f88d1223cc5f19e67d76369c69fdf5e1/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/37af31be111769441abd0e538a274d85/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/167f6147e3dbadcfa48f0f8ed4b28052/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/7cc235ef0b549b018775d7de4013c293/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sharadagarwal/.gradle/caches/transforms-3/0f403ded75d9a9105a6d316291ff10ef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f31429033b8ea47cb0601de8ceed8daf/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/3c377813806f40fb812033c8be620af0/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/e43bf5a5a8d44ded29eecaf9fac810ce/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/e88f0c6a177c64e29e6720aef11e3f84/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/fdc252904fa1bdfcd8e1980ca2829380/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/b4d0fdbc1d31d6c8500dbfbdb4f87230/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/b520fde7fb1a48eb5e62d59f0bb027d2/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.41] /Users/sharadagarwal/.gradle/caches/transforms-3/0886be5095e85a100d2c237267ad865d/transformed/jetified-dagger-lint-aar-2.41/AndroidManifest.xml:16:1-19:12
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:2:1-153:12
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:2:1-153:12
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:2:1-153:12
+	package
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:4:5-39
+		INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:2:1-153:12
+		INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:2:1-153:12
+		INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:11:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:12:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:23:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:13:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:14:5-80
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.WRITE_INTERNAL_STORAGE
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:16:5-66
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:16:22-63
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:17:5-77
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:26:5-77
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:17:22-74
+uses-permission#android.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.BODY_SENSORS
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:19:5-70
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:19:22-68
+uses-permission#android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:20:5-83
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:20:22-80
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:21:5-95
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:21:22-92
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:22:5-85
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:22:22-82
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:24:5-26:35
+	android:required
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:26:9-32
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:25:9-61
+compatible-screens
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:28:5-101:26
+screen#small+ldpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:29:9-31:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:30:13-41
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:31:13-39
+screen#small+mdpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:32:9-34:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:33:13-41
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:34:13-39
+screen#small+hdpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:35:9-37:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:36:13-41
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:37:13-39
+screen#small+xhdpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:38:9-40:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:39:13-42
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:40:13-39
+screen#small+420
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:41:9-43:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:42:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:43:13-39
+screen#small+480
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:44:9-46:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:45:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:46:13-39
+screen#small+560
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:47:9-49:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:48:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:49:13-39
+screen#small+640
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:50:9-52:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:51:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:52:13-39
+screen#normal+ldpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:53:9-55:43
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:54:13-41
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:55:13-40
+screen#normal+mdpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:56:9-58:43
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:57:13-41
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:58:13-40
+screen#normal+hdpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:59:9-61:43
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:60:13-41
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:61:13-40
+screen#normal+xhdpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:62:9-64:43
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:63:13-42
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:64:13-40
+screen#normal+420
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:65:9-67:43
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:66:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:67:13-40
+screen#normal+480
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:68:9-70:43
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:69:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:70:13-40
+screen#normal+560
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:71:9-73:43
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:72:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:73:13-40
+screen#normal+640
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:74:9-76:43
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:75:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:76:13-40
+screen#large+ldpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:77:9-79:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:78:13-41
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:79:13-39
+screen#large+mdpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:80:9-82:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:81:13-41
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:82:13-39
+screen#large+hdpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:83:9-85:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:84:13-41
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:85:13-39
+screen#large+xhdpi
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:86:9-88:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:87:13-42
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:88:13-39
+screen#large+420
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:89:9-91:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:90:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:91:13-39
+screen#large+480
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:92:9-94:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:93:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:94:13-39
+screen#large+560
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:95:9-97:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:96:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:97:13-39
+screen#large+640
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:98:9-100:42
+	android:screenDensity
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:99:13-40
+	android:screenSize
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:100:13-39
+application
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:103:5-151:19
+MERGED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-22:19
+MERGED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:5-22:19
+MERGED from [:CountDownDialog] /Users/sharadagarwal/Desktop/SensorBox-master/CountDownDialog/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
+MERGED from [:CountDownDialog] /Users/sharadagarwal/Desktop/SensorBox-master/CountDownDialog/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
+MERGED from [:wearoslib] /Users/sharadagarwal/Desktop/SensorBox-master/wearoslib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:wearoslib] /Users/sharadagarwal/Desktop/SensorBox-master/wearoslib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [com.afollestad.material-dialogs:core:3.3.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f81798e081673142e0458af4bbb3cf1a/transformed/jetified-core-3.3.0/AndroidManifest.xml:11:5-47
+MERGED from [com.afollestad.material-dialogs:core:3.3.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f81798e081673142e0458af4bbb3cf1a/transformed/jetified-core-3.3.0/AndroidManifest.xml:11:5-47
+MERGED from [com.google.android.material:material:1.6.1] /Users/sharadagarwal/.gradle/caches/transforms-3/27fba2739076705ebb9e82e26229e9f8/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] /Users/sharadagarwal/.gradle/caches/transforms-3/27fba2739076705ebb9e82e26229e9f8/transformed/material-1.6.1/AndroidManifest.xml:24:5-20
+MERGED from [com.github.AppIntro:AppIntro:6.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/79293a14903fec907a0028dfa70dcb3c/transformed/jetified-AppIntro-6.1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.github.AppIntro:AppIntro:6.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/79293a14903fec907a0028dfa70dcb3c/transformed/jetified-AppIntro-6.1.0/AndroidManifest.xml:11:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/sharadagarwal/.gradle/caches/transforms-3/f0105fd524db65df2d8d3a09db6c26ac/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/sharadagarwal/.gradle/caches/transforms-3/f0105fd524db65df2d8d3a09db6c26ac/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [de.psdev.licensesdialog:licensesdialog:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/331bf85eef007f12a50f9dac098ca683/transformed/jetified-licensesdialog-2.2.0/AndroidManifest.xml:24:5-20
+MERGED from [de.psdev.licensesdialog:licensesdialog:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/331bf85eef007f12a50f9dac098ca683/transformed/jetified-licensesdialog-2.2.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c64ee8158c8641c024ce0cd8f0a950ce/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c64ee8158c8641c024ce0cd8f0a950ce/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/d8e7484d9867f110511a673703539b86/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/d8e7484d9867f110511a673703539b86/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-wearable:17.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/0b0793963e7b78d0fa36e9ac871312c3/transformed/jetified-play-services-wearable-17.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-wearable:17.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/0b0793963e7b78d0fa36e9ac871312c3/transformed/jetified-play-services-wearable-17.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/1063f65eb1b71884a7c6d84037010cda/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/1063f65eb1b71884a7c6d84037010cda/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/be38ea10811d97ef6d369feef3dbb467/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/be38ea10811d97ef6d369feef3dbb467/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aa0b7b105c2843252cd459dfeb66daa9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aa0b7b105c2843252cd459dfeb66daa9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/sharadagarwal/.gradle/caches/transforms-3/95e835500b435a50abd725f8d4a3f5a2/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/sharadagarwal/.gradle/caches/transforms-3/95e835500b435a50abd725f8d4a3f5a2/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:11:5-12:19
+MERGED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/e586b5dd68465e158726f583e5e19629/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/e586b5dd68465e158726f583e5e19629/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:22:5-26:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:28:5-74:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/de64a8522b336d098d51a0989f394ed1/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/de64a8522b336d098d51a0989f394ed1/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/86e5ba84e357a2f1fe440fbd55848313/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/86e5ba84e357a2f1fe440fbd55848313/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:7:5-13:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.8.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c88b56854325d7eacca06d8ff9aef989/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.8.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c88b56854325d7eacca06d8ff9aef989/transformed/core-1.8.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/37af31be111769441abd0e538a274d85/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/37af31be111769441abd0e538a274d85/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sharadagarwal/.gradle/caches/transforms-3/0f403ded75d9a9105a6d316291ff10ef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sharadagarwal/.gradle/caches/transforms-3/0f403ded75d9a9105a6d316291ff10ef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f31429033b8ea47cb0601de8ceed8daf/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f31429033b8ea47cb0601de8ceed8daf/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.8.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c88b56854325d7eacca06d8ff9aef989/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:108:9-35
+	android:label
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:106:9-41
+	android:fullBackupContent
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:110:9-59
+	tools:ignore
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:111:9-35
+	android:roundIcon
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:107:9-62
+	android:icon
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:105:9-46
+	android:theme
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:109:9-40
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:104:9-37
+activity#com.motionapps.sensorbox.intro.IntroActivity
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:112:9-115:59
+	android:label
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:114:13-46
+	android:theme
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:115:13-56
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:113:13-48
+activity#com.motionapps.sensorbox.activities.MeasurementActivity
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:116:9-120:59
+	android:label
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:118:13-56
+	android:launchMode
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:119:13-44
+	android:theme
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:120:13-56
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:117:13-59
+activity#com.motionapps.sensorbox.activities.MainActivity
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:121:9-131:20
+	android:label
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:123:13-45
+	android:launchMode
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:124:13-44
+	android:exported
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:126:13-36
+	android:theme
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:125:13-44
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:122:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:127:13-130:29
+action#android.intent.action.MAIN
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:128:17-69
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:128:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:129:17-77
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:129:27-74
+service#com.motionapps.sensorbox.MsgListener
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:133:9-142:19
+	android:exported
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:134:13-36
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:133:18-45
+intent-filter#action:name:com.google.android.gms.wearable.MESSAGE_RECEIVED+data:host:*+data:pathPrefix:/com.motionapps.sensorbox.Activity+data:scheme:wear
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:135:13-141:29
+action#com.google.android.gms.wearable.MESSAGE_RECEIVED
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:136:17-91
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:136:25-88
+data
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:137:17-140:45
+	android:host
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:138:21-37
+	android:scheme
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:140:21-42
+	android:pathPrefix
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:139:21-76
+property
+ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:148:9-150:58
+	android:resource
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:150:13-55
+	android:name
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml:149:13-62
+uses-sdk
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+MERGED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-8:41
+MERGED from [:CountDownDialog] /Users/sharadagarwal/Desktop/SensorBox-master/CountDownDialog/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:CountDownDialog] /Users/sharadagarwal/Desktop/SensorBox-master/CountDownDialog/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:wearoslib] /Users/sharadagarwal/Desktop/SensorBox-master/wearoslib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:wearoslib] /Users/sharadagarwal/Desktop/SensorBox-master/wearoslib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.afollestad.material-dialogs:core:3.3.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f81798e081673142e0458af4bbb3cf1a/transformed/jetified-core-3.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:core:3.3.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f81798e081673142e0458af4bbb3cf1a/transformed/jetified-core-3.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.dagger:hilt-android:2.41] /Users/sharadagarwal/.gradle/caches/transforms-3/b7c3912c1c42e659994c9deeca4a095c/transformed/jetified-hilt-android-2.41/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.41] /Users/sharadagarwal/.gradle/caches/transforms-3/b7c3912c1c42e659994c9deeca4a095c/transformed/jetified-hilt-android-2.41/AndroidManifest.xml:18:3-42
+MERGED from [:flipper] /Users/sharadagarwal/Desktop/SensorBox-master/flipper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flipper] /Users/sharadagarwal/Desktop/SensorBox-master/flipper/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/5420ce96bb381f497206eea37d6b5eb1/transformed/navigation-ui-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/5420ce96bb381f497206eea37d6b5eb1/transformed/navigation-ui-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/4fee4b8c007289ad877d909409adac52/transformed/navigation-ui-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/4fee4b8c007289ad877d909409adac52/transformed/navigation-ui-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/sharadagarwal/.gradle/caches/transforms-3/27fba2739076705ebb9e82e26229e9f8/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] /Users/sharadagarwal/.gradle/caches/transforms-3/27fba2739076705ebb9e82e26229e9f8/transformed/material-1.6.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.AppIntro:AppIntro:6.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/79293a14903fec907a0028dfa70dcb3c/transformed/jetified-AppIntro-6.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.AppIntro:AppIntro:6.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/79293a14903fec907a0028dfa70dcb3c/transformed/jetified-AppIntro-6.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/sharadagarwal/.gradle/caches/transforms-3/f0105fd524db65df2d8d3a09db6c26ac/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/sharadagarwal/.gradle/caches/transforms-3/f0105fd524db65df2d8d3a09db6c26ac/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.ShawnLin013:number-picker:2.4.13] /Users/sharadagarwal/.gradle/caches/transforms-3/74556cb7e47bcdb338522db8f7845cf0/transformed/jetified-number-picker-2.4.13/AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.ShawnLin013:number-picker:2.4.13] /Users/sharadagarwal/.gradle/caches/transforms-3/74556cb7e47bcdb338522db8f7845cf0/transformed/jetified-number-picker-2.4.13/AndroidManifest.xml:5:5-7:41
+MERGED from [io.github.medyo:android-about-page:2.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/733a59b6a687911e20b57d3ef4dd4782/transformed/jetified-android-about-page-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.github.medyo:android-about-page:2.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/733a59b6a687911e20b57d3ef4dd4782/transformed/jetified-android-about-page-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [de.psdev.licensesdialog:licensesdialog:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/331bf85eef007f12a50f9dac098ca683/transformed/jetified-licensesdialog-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [de.psdev.licensesdialog:licensesdialog:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/331bf85eef007f12a50f9dac098ca683/transformed/jetified-licensesdialog-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.GrenderG:Toasty:1.5.2] /Users/sharadagarwal/.gradle/caches/transforms-3/112e606b06db6c4f6486bec820260440/transformed/jetified-Toasty-1.5.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.GrenderG:Toasty:1.5.2] /Users/sharadagarwal/.gradle/caches/transforms-3/112e606b06db6c4f6486bec820260440/transformed/jetified-Toasty-1.5.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/cae88f3340aef2c57e9b0521140a576c/transformed/jetified-preference-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/cae88f3340aef2c57e9b0521140a576c/transformed/jetified-preference-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aeaf11e9094e57a1fe430507aa4acd1a/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aeaf11e9094e57a1fe430507aa4acd1a/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/sharadagarwal/.gradle/caches/transforms-3/6f76b412bb173787cb60bc148b411d2e/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/sharadagarwal/.gradle/caches/transforms-3/6f76b412bb173787cb60bc148b411d2e/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c64ee8158c8641c024ce0cd8f0a950ce/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c64ee8158c8641c024ce0cd8f0a950ce/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/d8e7484d9867f110511a673703539b86/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/d8e7484d9867f110511a673703539b86/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-wearable:17.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/0b0793963e7b78d0fa36e9ac871312c3/transformed/jetified-play-services-wearable-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wearable:17.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/0b0793963e7b78d0fa36e9ac871312c3/transformed/jetified-play-services-wearable-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/1063f65eb1b71884a7c6d84037010cda/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/1063f65eb1b71884a7c6d84037010cda/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/be38ea10811d97ef6d369feef3dbb467/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/be38ea10811d97ef6d369feef3dbb467/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aa0b7b105c2843252cd459dfeb66daa9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aa0b7b105c2843252cd459dfeb66daa9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/baa5453ee69dded3f559a5477ac889cb/transformed/navigation-fragment-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/baa5453ee69dded3f559a5477ac889cb/transformed/navigation-fragment-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/62456648189598bc5fec50074fb31ed7/transformed/navigation-fragment-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/62456648189598bc5fec50074fb31ed7/transformed/navigation-fragment-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/29e5274bca9f402b89cbe332306db216/transformed/jetified-fragment-ktx-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/29e5274bca9f402b89cbe332306db216/transformed/jetified-fragment-ktx-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/817c27abdfcc0fe2627ea109666ac17e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/817c27abdfcc0fe2627ea109666ac17e/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/sharadagarwal/.gradle/caches/transforms-3/95e835500b435a50abd725f8d4a3f5a2/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.2] /Users/sharadagarwal/.gradle/caches/transforms-3/95e835500b435a50abd725f8d4a3f5a2/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/e54bf6743a04b94da1f779f7c8c78a7c/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/e54bf6743a04b94da1f779f7c8c78a7c/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/2f9a8d3f3eaaef3cf9d65ca377e239f0/transformed/fragment-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/2f9a8d3f3eaaef3cf9d65ca377e239f0/transformed/fragment-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/6d13ad42eec2925c521a4d78018149c6/transformed/navigation-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/6d13ad42eec2925c521a4d78018149c6/transformed/navigation-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/705d400505035c53b936adebe1c6dcee/transformed/navigation-runtime-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/705d400505035c53b936adebe1c6dcee/transformed/navigation-runtime-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a0cca8aaf7fd3f1753d2d45b57f09374/transformed/jetified-activity-ktx-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a0cca8aaf7fd3f1753d2d45b57f09374/transformed/jetified-activity-ktx-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/630fa3d70d49b16dda8a55facb254e18/transformed/navigation-common-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/630fa3d70d49b16dda8a55facb254e18/transformed/navigation-common-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/4e691fb79e3b0f242c48720fd021889f/transformed/navigation-common-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/4e691fb79e3b0f242c48720fd021889f/transformed/navigation-common-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/72171c02639cf1632951136cb64f4825/transformed/jetified-lifecycle-viewmodel-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/72171c02639cf1632951136cb64f4825/transformed/jetified-lifecycle-viewmodel-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/5e3602b1f7f02fb2e02cec448a52c30c/transformed/jetified-activity-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/5e3602b1f7f02fb2e02cec448a52c30c/transformed/jetified-activity-1.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/eb9540bdb57082abbf698a6c90e51e6e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/eb9540bdb57082abbf698a6c90e51e6e/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/929e3cfb622d1ceaf4bdabcce5bdbac9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/929e3cfb622d1ceaf4bdabcce5bdbac9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/36773450af90a8dca134c53e11853801/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/36773450af90a8dca134c53e11853801/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4e4269ac02229b5c28f2bf8acacabd2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4e4269ac02229b5c28f2bf8acacabd2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/810577697f6b4d5f82ce2906ce131a31/transformed/lifecycle-viewmodel-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/810577697f6b4d5f82ce2906ce131a31/transformed/lifecycle-viewmodel-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/396786d70f8f4966ffb7dd2654cca820/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/396786d70f8f4966ffb7dd2654cca820/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/06610d22c3efcd14ea61301c08811eea/transformed/jetified-lifecycle-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/06610d22c3efcd14ea61301c08811eea/transformed/jetified-lifecycle-runtime-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/cdca3c521e71589ef0566545b99a3a24/transformed/jetified-lifecycle-livedata-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/cdca3c521e71589ef0566545b99a3a24/transformed/jetified-lifecycle-livedata-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/8480123d4d7da6fee671e27d5cda807a/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/8480123d4d7da6fee671e27d5cda807a/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/e586b5dd68465e158726f583e5e19629/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/e586b5dd68465e158726f583e5e19629/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/18422d3055beded80a85f3f65fca503b/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/18422d3055beded80a85f3f65fca503b/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/sharadagarwal/.gradle/caches/transforms-3/ba5337f8306df55aa56ec8af06c6acaf/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.8.0] /Users/sharadagarwal/.gradle/caches/transforms-3/ba5337f8306df55aa56ec8af06c6acaf/transformed/jetified-core-ktx-1.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jaredrummler:material-spinner:1.3.1] /Users/sharadagarwal/.gradle/caches/transforms-3/79512b157adcbe6fc20f71bb27392501/transformed/jetified-material-spinner-1.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jaredrummler:material-spinner:1.3.1] /Users/sharadagarwal/.gradle/caches/transforms-3/79512b157adcbe6fc20f71bb27392501/transformed/jetified-material-spinner-1.3.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/1f854c751d3c005ccbc5043e78cce09b/transformed/jetified-lifecycle-livedata-core-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/1f854c751d3c005ccbc5043e78cce09b/transformed/jetified-lifecycle-livedata-core-ktx-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/dafe7bd32c5b05d424cf9e45e37b79a6/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/dafe7bd32c5b05d424cf9e45e37b79a6/transformed/jetified-savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/7bc2b7c89cf5706e6a8507b502d64e1b/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/7bc2b7c89cf5706e6a8507b502d64e1b/transformed/jetified-savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/7a6905989ed51a2d4ea63fd67171284b/transformed/jetified-leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-androidx:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/7a6905989ed51a2d4ea63fd67171284b/transformed/jetified-leakcanary-object-watcher-android-androidx-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/720f74740e0b6a52ee186cf1781be1da/transformed/jetified-leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android-support-fragments:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/720f74740e0b6a52ee186cf1781be1da/transformed/jetified-leakcanary-object-watcher-android-support-fragments-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/de64a8522b336d098d51a0989f394ed1/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/de64a8522b336d098d51a0989f394ed1/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/86e5ba84e357a2f1fe440fbd55848313/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:plumber-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/86e5ba84e357a2f1fe440fbd55848313/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/62b1f595771006c84c5818777119d4b5/transformed/jetified-leakcanary-android-utils-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android-utils:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/62b1f595771006c84c5818777119d4b5/transformed/jetified-leakcanary-android-utils-2.7/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.curtains:curtains:1.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/5e46968cd26b933b28cce6ab3d88f9b9/transformed/jetified-curtains-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.curtains:curtains:1.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/5e46968cd26b933b28cce6ab3d88f9b9/transformed/jetified-curtains-1.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/sharadagarwal/.gradle/caches/transforms-3/6fa89e47be3b96599602329b7d7c2ecf/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] /Users/sharadagarwal/.gradle/caches/transforms-3/6fa89e47be3b96599602329b7d7c2ecf/transformed/jetified-appcompat-resources-1.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/da8ad225a0fdc45729e32f89db1e0e60/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/da8ad225a0fdc45729e32f89db1e0e60/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/sharadagarwal/.gradle/caches/transforms-3/3b9cf907e23f84239a7e11eee3283bcc/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/sharadagarwal/.gradle/caches/transforms-3/3b9cf907e23f84239a7e11eee3283bcc/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/813785b65fec78e271ac57e9c45e322e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/813785b65fec78e271ac57e9c45e322e/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/ccc450dea2455c055056727f79457e71/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/ccc450dea2455c055056727f79457e71/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/5d4a60c53ce02c93769cc42bdfc174c4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/5d4a60c53ce02c93769cc42bdfc174c4/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/58021a720203f4475531bc926b9d12bd/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/58021a720203f4475531bc926b9d12bd/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/30038119293d0d38de119e2877d4d2fe/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/30038119293d0d38de119e2877d4d2fe/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/d2133f178942497180934b5bc6b36936/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/d2133f178942497180934b5bc6b36936/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/2c7997f6b1c6d6335a2c11005519fd88/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/2c7997f6b1c6d6335a2c11005519fd88/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/281ba2653459867abac49d756573bfb8/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/281ba2653459867abac49d756573bfb8/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] /Users/sharadagarwal/.gradle/caches/transforms-3/95c3d50d9edd7a3fb7fe773532177b13/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/sharadagarwal/.gradle/caches/transforms-3/95c3d50d9edd7a3fb7fe773532177b13/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/894c8ef5e72e72d2a5891e34e688429d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/894c8ef5e72e72d2a5891e34e688429d/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/edbc68adad52caeefc0bfa778ac687eb/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/edbc68adad52caeefc0bfa778ac687eb/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.8.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c88b56854325d7eacca06d8ff9aef989/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.8.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c88b56854325d7eacca06d8ff9aef989/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/2a47ccc60555806a78dd2d3bf4bd9bf9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/2a47ccc60555806a78dd2d3bf4bd9bf9/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f2d27e22fa2e34b882bef114b5e83d28/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f2d27e22fa2e34b882bef114b5e83d28/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/94f75234ed21d7d8d12229476a1b84fe/transformed/lifecycle-livedata-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/94f75234ed21d7d8d12229476a1b84fe/transformed/lifecycle-livedata-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c52722a8850aceb9bf3b341eb27d5007/transformed/lifecycle-livedata-core-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/c52722a8850aceb9bf3b341eb27d5007/transformed/lifecycle-livedata-core-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f88d1223cc5f19e67d76369c69fdf5e1/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f88d1223cc5f19e67d76369c69fdf5e1/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/37af31be111769441abd0e538a274d85/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/37af31be111769441abd0e538a274d85/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/167f6147e3dbadcfa48f0f8ed4b28052/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.0] /Users/sharadagarwal/.gradle/caches/transforms-3/167f6147e3dbadcfa48f0f8ed4b28052/transformed/lifecycle-runtime-2.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/7cc235ef0b549b018775d7de4013c293/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/7cc235ef0b549b018775d7de4013c293/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sharadagarwal/.gradle/caches/transforms-3/0f403ded75d9a9105a6d316291ff10ef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/sharadagarwal/.gradle/caches/transforms-3/0f403ded75d9a9105a6d316291ff10ef/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f31429033b8ea47cb0601de8ceed8daf/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f31429033b8ea47cb0601de8ceed8daf/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/3c377813806f40fb812033c8be620af0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/3c377813806f40fb812033c8be620af0/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/e43bf5a5a8d44ded29eecaf9fac810ce/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/e43bf5a5a8d44ded29eecaf9fac810ce/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/e88f0c6a177c64e29e6720aef11e3f84/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/e88f0c6a177c64e29e6720aef11e3f84/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/fdc252904fa1bdfcd8e1980ca2829380/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/fdc252904fa1bdfcd8e1980ca2829380/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/b4d0fdbc1d31d6c8500dbfbdb4f87230/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/b4d0fdbc1d31d6c8500dbfbdb4f87230/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/b520fde7fb1a48eb5e62d59f0bb027d2/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/b520fde7fb1a48eb5e62d59f0bb027d2/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.41] /Users/sharadagarwal/.gradle/caches/transforms-3/0886be5095e85a100d2c237267ad865d/transformed/jetified-dagger-lint-aar-2.41/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.41] /Users/sharadagarwal/.gradle/caches/transforms-3/0886be5095e85a100d2c237267ad865d/transformed/jetified-dagger-lint-aar-2.41/AndroidManifest.xml:18:3-42
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sharadagarwal/Desktop/SensorBox-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.HIGH_SAMPLING_RATE_SENSORS
+ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-13:43
+	tools:ignore
+		ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-40
+	android:name
+		ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-69
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:5-94
+	android:name
+		ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:22-91
+service#com.motionapps.sensorservices.services.MeasurementService
+ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-21:56
+	android:enabled
+		ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-37
+	android:foregroundServiceType
+		ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-53
+	android:name
+		ADDED from [:SensorServices] /Users/sharadagarwal/Desktop/SensorBox-master/SensorServices/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-85
+service#com.motionapps.wearoslib.WearOsSyncService
+ADDED from [:wearoslib] /Users/sharadagarwal/Desktop/SensorBox-master/wearoslib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:56
+	android:enabled
+		ADDED from [:wearoslib] /Users/sharadagarwal/Desktop/SensorBox-master/wearoslib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [:wearoslib] /Users/sharadagarwal/Desktop/SensorBox-master/wearoslib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [:wearoslib] /Users/sharadagarwal/Desktop/SensorBox-master/wearoslib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [:wearoslib] /Users/sharadagarwal/Desktop/SensorBox-master/wearoslib/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-70
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/sharadagarwal/.gradle/caches/transforms-3/071cf80a72bd6d8fb16ea312477dce37/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/1063f65eb1b71884a7c6d84037010cda/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/1063f65eb1b71884a7c6d84037010cda/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/1063f65eb1b71884a7c6d84037010cda/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/sharadagarwal/.gradle/caches/transforms-3/1063f65eb1b71884a7c6d84037010cda/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aa0b7b105c2843252cd459dfeb66daa9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aa0b7b105c2843252cd459dfeb66daa9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/sharadagarwal/.gradle/caches/transforms-3/aa0b7b105c2843252cd459dfeb66daa9/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/a4ffca0bbda3bdf9d361df18a33a5954/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+service#leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/e586b5dd68465e158726f583e5e19629/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/e586b5dd68465e158726f583e5e19629/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/e586b5dd68465e158726f583e5e19629/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:24:13-67
+provider#leakcanary.internal.LeakCanaryFileProvider
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:29:9-37:20
+	android:grantUriPermissions
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:31:13-88
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:30:13-70
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:34:13-36:66
+	android:resource
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:36:17-63
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:35:17-67
+activity#leakcanary.internal.activity.LeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:39:9-44:66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:42:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:41:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:44:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:43:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:40:13-69
+activity-alias#leakcanary.internal.activity.LeakLauncherActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:46:9-63:26
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:49:13-66
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:52:13-71
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:50:13-36
+	android:targetActivity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:53:13-79
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:51:13-52
+	android:banner
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:48:13-59
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:55:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:54:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:47:13-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:56:13-62:29
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:61:17-86
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:61:27-83
+activity#leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:65:9-71:68
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:69:13-82
+	android:excludeFromRecents
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:67:13-46
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:68:13-52
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:71:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:70:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:66:13-80
+receiver#leakcanary.internal.NotificationReceiver
+ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:73:9-77
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/60130d2b745de343e02e2e1bd8e805fb/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:73:19-74
+provider#leakcanary.internal.AppWatcherInstaller$MainProcess
+ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/de64a8522b336d098d51a0989f394ed1/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/de64a8522b336d098d51a0989f394ed1/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/de64a8522b336d098d51a0989f394ed1/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/de64a8522b336d098d51a0989f394ed1/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/de64a8522b336d098d51a0989f394ed1/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:9:13-79
+provider#leakcanary.internal.PlumberInstaller
+ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/86e5ba84e357a2f1fe440fbd55848313/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:8:9-12:40
+	android:enabled
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/86e5ba84e357a2f1fe440fbd55848313/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:11:13-69
+	android:authorities
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/86e5ba84e357a2f1fe440fbd55848313/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:10:13-69
+	android:exported
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/86e5ba84e357a2f1fe440fbd55848313/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.squareup.leakcanary:plumber-android:2.7] /Users/sharadagarwal/.gradle/caches/transforms-3/86e5ba84e357a2f1fe440fbd55848313/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:9:13-64
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/37af31be111769441abd0e538a274d85/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/37af31be111769441abd0e538a274d85/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f31429033b8ea47cb0601de8ceed8daf/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/f31429033b8ea47cb0601de8ceed8daf/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/sharadagarwal/.gradle/caches/transforms-3/725a0a88912105724ef9d0613c0f17cf/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/37af31be111769441abd0e538a274d85/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/37af31be111769441abd0e538a274d85/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/sharadagarwal/.gradle/caches/transforms-3/37af31be111769441abd0e538a274d85/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78

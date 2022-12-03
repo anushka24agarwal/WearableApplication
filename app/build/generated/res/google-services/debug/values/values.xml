@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">586280846949-b2e74mu39jg8ctsr5qps5762d81i8s8m.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">586280846949</string>
+    <string name="google_api_key" translatable="false">AIzaSyBGcbZWt7YbC4WAfD0TDf1ybxcfmdpaKwg</string>
+    <string name="google_app_id" translatable="false">1:586280846949:android:ba365d89b7554a2105288c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBGcbZWt7YbC4WAfD0TDf1ybxcfmdpaKwg</string>
+    <string name="google_storage_bucket" translatable="false">sensorwearable-82d2d.appspot.com</string>
+    <string name="project_id" translatable="false">sensorwearable-82d2d</string>
+</resources>

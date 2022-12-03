@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "586280846949",
+    "project_id": "sensorwearable-82d2d",
+    "storage_bucket": "sensorwearable-82d2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586280846949:android:ba365d89b7554a2105288c",
+        "android_client_info": {
+          "package_name": "com.motionapps.sensorbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586280846949-b2e74mu39jg8ctsr5qps5762d81i8s8m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGcbZWt7YbC4WAfD0TDf1ybxcfmdpaKwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586280846949-b2e74mu39jg8ctsr5qps5762d81i8s8m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
